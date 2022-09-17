@@ -34,7 +34,7 @@ def movie(emotion):
 	# IMDb Url for Sport genre of
 	# movie against emotion Fear
 	elif(emotion == "fear"):
-		urlhere = 'http://www.imdb.com/search/title?genres=sport&title_type=feature&sort=moviemeter, asc'
+		urlhere = 'https://www.imdb.com/search/title/?title_type=feature&genres=horror, asc'
 
 	# IMDb Url for Thriller genre of
 	# movie against emotion Enjoyment
